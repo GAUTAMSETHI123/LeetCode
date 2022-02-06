@@ -30,6 +30,6 @@ public class MaxWealth1672 {
 
 
         }
-        return max;
+        return ans;
     }
 }
