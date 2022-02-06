@@ -15,7 +15,7 @@ public class MaxWealth1672 {
 
     static int maximumWealth(int [][] accounts){
 
-        int max = Integer.MIN_VALUE;
+        int ans = Integer.MIN_VALUE;
         for (int person = 0; person < accounts.length; person++) {
             int sum =0;
             for (int account = 0; account < accounts[person].length; account++) {
@@ -24,8 +24,8 @@ public class MaxWealth1672 {
 
             }
 
-            if(sum > max){
-                max = sum;
+            if(sum > ans){
+                ans = sum;
             }
 
 
