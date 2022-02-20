@@ -7,7 +7,7 @@
 
 package LinkedList;
 
-public class LinkedListIterative {
+public class ReverseLinkedListIterative {
 
 
         // head is the first node of the linked list
@@ -65,7 +65,7 @@ public class LinkedListIterative {
         public static void main(String argvs[])
         {
 // creating an object of the class LinkedListIterative
-            LinkedListIterative listObj = new LinkedListIterative();
+            ReverseLinkedListIterative listObj = new ReverseLinkedListIterative();
 
 // 4 -> NULL
             listObj.head = new LinkedListNode(4);
