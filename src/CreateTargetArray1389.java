@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CreateTargetArray {
+public class CreateTargetArray1389 {
     public static void main(String[] args) {
 
         int [] arr = {0,1,2,3,4};
