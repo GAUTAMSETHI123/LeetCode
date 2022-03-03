@@ -8,8 +8,12 @@
 public class FirstUniqueCharInString {
     public static void main(String[] args) {
 
+        String s = "leetCode";
+        int res = firstUniqChar(s);
+        System.out.println(res);
+
     }
-    public int firstUniqChar(String s) {
+    public static int firstUniqChar(String s) {
 
         for(int i=0;i<s.length();i++){
             int flag=0;
