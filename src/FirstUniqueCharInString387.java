@@ -5,7 +5,7 @@
  *   File: FirstUniqueCharInString.java
  */
 
-public class FirstUniqueCharInString {
+public class FirstUniqueCharInString387 {
     public static void main(String[] args) {
 
         String s = "leetCode";
