@@ -5,5 +5,27 @@
  *   File: PowerOfTwo.java
  */
 
+import java.util.Scanner;
+
 public class PowerOfTwo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        boolean res = recPow(n);
+        System.out.println(res);
+
+    }
+
+    public static boolean recPow(int n){
+        if(n == 0)
+            return false;
+        if(n == 1)
+            return true;
+
+        if(n%2 == 0){
+            return recPow(n/2);
+        }
+        return false;
+
+    }
 }
