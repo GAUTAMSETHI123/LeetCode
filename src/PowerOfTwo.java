@@ -11,19 +11,19 @@ public class PowerOfTwo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        boolean res = recPow(n);
+        boolean res = recursivePower(n);
         System.out.println(res);
 
     }
 
-    public static boolean recPow(int n){
+    public static boolean recursivePower(int n){
         if(n == 0)
             return false;
         if(n == 1)
             return true;
 
         if(n%2 == 0){
-            return recPow(n/2);
+            return recursivePower(n/2);
         }
         return false;
 
