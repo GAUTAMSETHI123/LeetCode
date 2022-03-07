@@ -5,7 +5,7 @@
  *   File: FirstAndLastOccurenceOfAnElement.java
  */
 import java.util.*;
-public class FirstAndLastOccurenceOfAnElement {
+public class FirstAndLastPositionOfAnElementInAnSortedArray34 {
 
 
 
