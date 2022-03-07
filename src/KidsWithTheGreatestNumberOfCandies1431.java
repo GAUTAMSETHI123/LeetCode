@@ -8,7 +8,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class KidsWithTheGreatestNumberOfCandies {
+public class KidsWithTheGreatestNumberOfCandies1431 {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         ArrayList<Boolean> list = new ArrayList<Boolean>();
         int result=0;
