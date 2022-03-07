@@ -13,14 +13,14 @@ public class FirstAndLastPositionOfAnElementInAnSortedArray34 {
         static void findFirstAndLastPosition(int arr[],int n,int target)
         {
             // We initialize first and last as -1 if the target is not present in the array.
-            int first = -1;
+            int firstPosition = -1;
             int last = -1;
 
             for(int i=0;i<n;i++)
             {
                 if(arr[i] == target)
                 {
-                    first = i;
+                    firstPosition = i;
                     break;
                 }
             }
@@ -34,7 +34,7 @@ public class FirstAndLastPositionOfAnElementInAnSortedArray34 {
                 }
             }
 
-            System.out.println("The First occurrence of "+target+" at index : "+first+" and the Last occurrence is at index : "+last);
+            System.out.println("The First occurrence of "+target+" at index : "+firstPosition+" and the Last occurrence is at index : "+last);
         }
 
         public static void main(String args[])
