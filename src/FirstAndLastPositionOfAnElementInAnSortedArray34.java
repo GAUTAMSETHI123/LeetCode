@@ -42,7 +42,7 @@ public class FirstAndLastPositionOfAnElementInAnSortedArray34 {
             int arr[] = new int[]{2,3,4,5,5,7,7,7,9,11};
             int n = arr.length;
 
-            int target = 7;
+            int target = 9;
             findFirstAndLastPosition(arr,n,target);
 
         }
