@@ -6,7 +6,7 @@
  */
 
 public class LengthOfLastWord58 {
-    public int lengthOfLastWord(String s) {
+    public int lengthOfLastWordInString(String s) {
         if(s==null || s.length() == 0)
             return 0;
 
