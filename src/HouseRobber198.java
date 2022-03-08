@@ -6,7 +6,7 @@
  */
 
 public class HouseRobber198 {
-    public int rob(int[] nums) {
+    public int houseRob(int[] nums) {
 
         if(nums.length==1)
             return nums[0];
