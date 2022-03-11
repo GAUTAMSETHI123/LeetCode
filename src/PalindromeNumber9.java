@@ -5,7 +5,7 @@
  *   File: PalindromeNumber.java
  */
 
-public class PalindromeNumber {
+public class PalindromeNumber9 {
     public static void main(String[] args) {
         int n = 121;
         System.out.println(isPalindrome(n));
