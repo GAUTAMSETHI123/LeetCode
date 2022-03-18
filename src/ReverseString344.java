@@ -7,7 +7,7 @@
 
 import java.util.Arrays;
 
-public class ReverseString {
+public class ReverseString344 {
     public static void main(String[] args) {
         char[] S = new char[]{'a', 'b', 'c'};
         char [] res = reverseString(S);
