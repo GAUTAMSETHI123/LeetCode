@@ -5,29 +5,30 @@
  *   File: AddToArrayFormOfInteger989.java
  */
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class AddToArrayFormOfInteger989 {
     public static void main(String[] args) {
 
-        int [] arr = {1,2,3,4};
-        int n = 12;
-        int [] arr1 = new int[arr.length];
+        public List<Integer> addToArrayForm(int[] num, int k) {
+            int n = num.length;
+            ArrayList<Integer> list = new ArrayList<>();
+            for(int i = n - 1; i >= 0; i--) {
+                int sum = num[i] + k;
+                list.add(sum % 10); // Inserting at the end of arraylist takes O(1) time.
+                k = sum / 10;
+            }
+            while(k > 0) {
+                list.add(k % 10);
+                k = k / 10;
+            }
+            Collections.reverse(list); // Reversing will take O(n) time.
+            return list;
 
-        int factor = 0;
-        int result = 0;
-        for (int i = 0; i < arr.length; i++) {
-            result = arr[i] + factor * 10;
-            factor = result;
         }
-
-        result = result+n;
-        for(int i=0; i<arr1.length-1; i++){
-            arr1[i] = 
-        }
-
-
-        System.out.println(Arrays.toString(result));
 
     }
 }
