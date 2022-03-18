@@ -16,7 +16,7 @@ public class AddToArrayFormOfInteger989 {
 
     }
 
-    public List<Integer> addToArrayForm(int[] num, int k) {
+    public List<Integer> addArrayForm(int[] num, int k) {
         int n = num.length;
         ArrayList<Integer> list = new ArrayList<>();
         for (int i = n - 1; i >= 0; i--) {
