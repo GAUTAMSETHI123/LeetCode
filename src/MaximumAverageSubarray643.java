@@ -14,11 +14,11 @@ public class MaximumAverageSubarray643 {
             for(int i = 0; i < k; i++) {
                 max += nums[i];
             }
-            int curr = max;
+            int current = max;
             for(int i = k; i < nums.length; i++) {
-                curr -= nums[i-k];
-                curr += nums[i];
-                max = Math.max(curr, max);
+                current -= nums[i-k];
+                current += nums[i];
+                max = Math.max(current, max);
             }
             return (max*1.0)/k;
         }
