@@ -5,7 +5,7 @@
  *   File: MaximumAverageSubarray643.java
  */
 
-public class MaximumAverageSubarray643 {
+public class MaximumAverageOfSubarray643 {
 
         public double findMaxAverage(int[] nums, int k) {
 
