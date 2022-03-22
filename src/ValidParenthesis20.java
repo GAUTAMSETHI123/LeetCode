@@ -8,7 +8,7 @@
 import java.util.Stack;
 
 public class ValidParenthesis20 {
-    public static boolean isValid(String s) {
+    public static boolean isValidParenthesis(String s) {
         Stack<Character> bracket = new Stack<>();
         for (char c : s.toCharArray()) {
             switch (c) {
@@ -25,7 +25,7 @@ public class ValidParenthesis20 {
     }
     public static void main(String[] args) {
         String s = "{}[)(]";
-        boolean check = isValid(s);
+        boolean check = isValidParenthesis(s);
         if(check){
             System.out.println("The given string contains valid parentheses.");
         }
