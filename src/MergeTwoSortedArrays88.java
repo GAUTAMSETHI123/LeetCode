@@ -10,7 +10,7 @@ package Scratch;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Merge2SortedArrays88 {
+public class MergeTwoSortedArrays88 {
     static void merge(int[] a , int m , int[] b , int n)
     {
         for(int i = 0 ; i < n ; i++)
