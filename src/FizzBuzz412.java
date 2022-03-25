@@ -6,7 +6,7 @@
  */
 
 public class FizzBuzz412 {
-    public List<String> fizzBuzz(int n) {
+    public List<String> FizzBuzz(int n) {
         ArrayList<String> list = new ArrayList<String>();
         for(int i = 1; i<=n; i++){
             if(i % 3 == 0 && i % 5 == 0){
