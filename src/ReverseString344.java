@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class ReverseString344 {
     public static void main(String[] args) {
-        char[] S = new char[]{'a', 'b', 'c'};
+        char[] S = new char[]{'a', 'b', 'c', 'd'};
         char [] res = reverseString(S);
         System.out.println(Arrays.toString(S));
 
