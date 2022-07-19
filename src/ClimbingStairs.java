@@ -24,7 +24,7 @@ public class ClimbingStairs {
     }
 
     public static void main(String[] args) {
-        int ans = climbingFunc(0,4 );
+        int ans = climbingFunc(0,2 );
         System.out.println(ans);
     }
 
